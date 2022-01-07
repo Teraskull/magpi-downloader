@@ -12,7 +12,7 @@ fi
 
 clear
 
-if [[ $(wc -l < "$OUTDIR/$URL_FILE") -gt $LATEST ]]; then
+if [[ $(wc -l < "$OUTDIR/$URL_FILE") -ne $LATEST ]]; then
   rm "$OUTDIR/$URL_FILE"
   for i in $( seq 1 $LATEST )
   do
