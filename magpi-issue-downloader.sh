@@ -2,7 +2,7 @@
 
 OUTDIR="issues"
 BASEURL="https://magpi.raspberrypi.org/"
-LATEST=110
+LATEST=113
 
 if [ ! -d "$OUTDIR" ]; then
   mkdir "$OUTDIR"
