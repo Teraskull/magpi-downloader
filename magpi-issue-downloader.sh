@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OUTDIR="issues"
-BASEURL="https://magpi.raspberrypi.org/"
+BASEURL="https://magpi.raspberrypi.com/"
 LATEST=113
 
 if [ ! -d "$OUTDIR" ]; then
